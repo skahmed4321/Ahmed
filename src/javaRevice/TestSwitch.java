@@ -5,24 +5,44 @@ public class TestSwitch {
     public static void main(String[] args) {
 
 
-        String names = "rahim";
+//        String names = "rahim";
+//
+//        switch (names) {
+//            case "jamal":
+//                System.out.println("jamal");
+//                break;
+//            case "kamal":
+//                System.out.println("kamal");
+//                break;
+//            case "rahim":
+//                System.out.println("rahim");
+//                break;
+//            case "Ahmed":
+//                System.out.println("Ahmed");
+//                break;
+//            default:
+//                System.out.println("not found");
+//
+//        }
 
-        switch (names) {
-            case "jamal":
+
+        int number = 0;
+
+        switch (number) {
+            case 1:
                 System.out.println("jamal");
                 break;
-            case "kamal":
+            case 2:
                 System.out.println("kamal");
                 break;
-            case "rahim":
+            case 3:
                 System.out.println("rahim");
                 break;
-            case "Ahmed":
-                System.out.println("Ahmed");
+            case 4:
+                System.out.println("bodora");
                 break;
             default:
-                System.out.println("not found");
-
+                System.out.println("invalid number");
         }
     }
 
