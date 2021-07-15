@@ -10,6 +10,6 @@ public class Array2d {
             }
             System.out.println();
         }
-
+//        System.out.println(a[2][0]);
     }
 }
